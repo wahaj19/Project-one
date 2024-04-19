@@ -1,0 +1,91 @@
+/* import google font roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url("scenery.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.navbar .logo {
+    font-size: 2.1rem;
+    font-weight: 600; 
+}
+
+.navbar .logo span {
+    color: #FF4C30;
+}
+
+.navbar a:hover {
+    color: #FF4C30;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero-section .content {
+        color:aliceblue;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+}
+
+.hero-section .content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.hero-section .content p {
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.hero-section .content button {
+    background: aliceblue;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;    
+}
+
+.hero-section .content button:hover {
+ background: #FF4C30;
+ color:aliceblue;
+}
+
+.hero-section .content {
+    text-align: center;
+}
+
+.hero-section .content :is(h1, p) {
+max-width: 100%;
+}
+
+.hero-section .content h1 {
+    font-size: 2.3 rem;
+    line-height: 60px;
+}
+
+.hero-section .content button {
+    padding: 9px 18px;
+    
+
+}
